@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1464EF26190C97FD00002958 /* ZZTHaloDataTypes.c in Sources */ = {isa = PBXBuildFile; fileRef = 1464EF24190C97FD00002958 /* ZZTHaloDataTypes.c */; };
+		1464EF2F190C980900002958 /* ZZTHaloMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 1464EF2D190C980900002958 /* ZZTHaloMemory.c */; };
+		77E6C6DF18415A4A00705ED5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E6C6DE18415A4A00705ED5 /* Cocoa.framework */; };
+		77E6C6E918415A4A00705ED5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C6E718415A4A00705ED5 /* InfoPlist.strings */; };
+		77E6C6FB18415AF000705ED5 /* mach_override.c in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C6F618415AF000705ED5 /* mach_override.c */; };
+		77E6C6FF18415C4F00705ED5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E6C6FE18415C4F00705ED5 /* Carbon.framework */; };
+		77E6C70218415CA400705ED5 /* SMHaloBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C70118415CA400705ED5 /* SMHaloBot.m */; };
+		AD57B1E818D575660095DEBA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD57B1E718D575660095DEBA /* OpenGL.framework */; };
+		AD657DC418BDD79200AF5129 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD657DC318BDD79200AF5129 /* WebKit.framework */; };
+		ADF941C718BEB00200B59C8E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF941C618BEB00200B59C8E /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1464EF24190C97FD00002958 /* ZZTHaloDataTypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZZTHaloDataTypes.c; sourceTree = "<group>"; };
+		1464EF25190C97FD00002958 /* ZZTHaloDataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloDataTypes.h; sourceTree = "<group>"; };
+		1464EF28190C980100002958 /* ZZTHaloDamageTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloDamageTag.h; sourceTree = "<group>"; };
+		1464EF29190C980100002958 /* ZZTHaloObjectTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloObjectTag.h; sourceTree = "<group>"; };
+		1464EF2A190C980100002958 /* ZZTHaloParticleTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloParticleTag.h; sourceTree = "<group>"; };
+		1464EF2B190C980100002958 /* ZZTHaloProjectileTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloProjectileTag.h; sourceTree = "<group>"; };
+		1464EF2C190C980100002958 /* ZZTHaloWeaponTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloWeaponTag.h; sourceTree = "<group>"; };
+		1464EF2D190C980900002958 /* ZZTHaloMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZZTHaloMemory.c; sourceTree = "<group>"; };
+		1464EF2E190C980900002958 /* ZZTHaloMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTHaloMemory.h; sourceTree = "<group>"; };
+		77E6C6DB18415A4A00705ED5 /* HaloBot.mdplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaloBot.mdplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E6C6DE18415A4A00705ED5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		77E6C6E118415A4A00705ED5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77E6C6E218415A4A00705ED5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		77E6C6E318415A4A00705ED5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		77E6C6E618415A4A00705ED5 /* HaloBot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HaloBot-Info.plist"; sourceTree = "<group>"; };
+		77E6C6E818415A4A00705ED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77E6C6EA18415A4A00705ED5 /* HaloHUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HaloHUD-Prefix.pch"; sourceTree = "<group>"; };
+		77E6C6F618415AF000705ED5 /* mach_override.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_override.c; sourceTree = "<group>"; };
+		77E6C6F718415AF000705ED5 /* mach_override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_override.h; sourceTree = "<group>"; };
+		77E6C6FE18415C4F00705ED5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		77E6C70018415CA400705ED5 /* SMHaloBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHaloBot.h; sourceTree = "<group>"; };
+		77E6C70118415CA400705ED5 /* SMHaloBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHaloBot.m; sourceTree = "<group>"; };
+		AD57B1E718D575660095DEBA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AD657DC318BDD79200AF5129 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AD657E1118BDF4F500AF5129 /* MDPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDPlugin.h; sourceTree = "<group>"; };
+		ADF941C618BEB00200B59C8E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E6C6D818415A4A00705ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF941C718BEB00200B59C8E /* JavaScriptCore.framework in Frameworks */,
+				77E6C6FF18415C4F00705ED5 /* Carbon.framework in Frameworks */,
+				77E6C6DF18415A4A00705ED5 /* Cocoa.framework in Frameworks */,
+				AD57B1E818D575660095DEBA /* OpenGL.framework in Frameworks */,
+				AD657DC418BDD79200AF5129 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1464EF23190C97FD00002958 /* Halo Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				1464EF24190C97FD00002958 /* ZZTHaloDataTypes.c */,
+				1464EF25190C97FD00002958 /* ZZTHaloDataTypes.h */,
+			);
+			path = "Halo Data Types";
+			sourceTree = "<group>";
+		};
+		1464EF27190C980100002958 /* Halo Tags */ = {
+			isa = PBXGroup;
+			children = (
+				1464EF28190C980100002958 /* ZZTHaloDamageTag.h */,
+				1464EF29190C980100002958 /* ZZTHaloObjectTag.h */,
+				1464EF2A190C980100002958 /* ZZTHaloParticleTag.h */,
+				1464EF2B190C980100002958 /* ZZTHaloProjectileTag.h */,
+				1464EF2C190C980100002958 /* ZZTHaloWeaponTag.h */,
+			);
+			path = "Halo Tags";
+			sourceTree = "<group>";
+		};
+		77E6C6D218415A4A00705ED5 = {
+			isa = PBXGroup;
+			children = (
+				77E6C6E418415A4A00705ED5 /* HaloJS */,
+				77E6C6DD18415A4A00705ED5 /* Frameworks */,
+				77E6C6DC18415A4A00705ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E6C6DC18415A4A00705ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C6DB18415A4A00705ED5 /* HaloBot.mdplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E6C6DD18415A4A00705ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD57B1E718D575660095DEBA /* OpenGL.framework */,
+				ADF941C618BEB00200B59C8E /* JavaScriptCore.framework */,
+				AD657DC318BDD79200AF5129 /* WebKit.framework */,
+				77E6C6FE18415C4F00705ED5 /* Carbon.framework */,
+				77E6C6DE18415A4A00705ED5 /* Cocoa.framework */,
+				77E6C6E018415A4A00705ED5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E6C6E018415A4A00705ED5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C6E118415A4A00705ED5 /* Foundation.framework */,
+				77E6C6E218415A4A00705ED5 /* CoreData.framework */,
+				77E6C6E318415A4A00705ED5 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		77E6C6E418415A4A00705ED5 /* HaloJS */ = {
+			isa = PBXGroup;
+			children = (
+				1464EF2D190C980900002958 /* ZZTHaloMemory.c */,
+				1464EF2E190C980900002958 /* ZZTHaloMemory.h */,
+				1464EF27190C980100002958 /* Halo Tags */,
+				1464EF23190C97FD00002958 /* Halo Data Types */,
+				AD657E1118BDF4F500AF5129 /* MDPlugin.h */,
+				77E6C70018415CA400705ED5 /* SMHaloBot.h */,
+				77E6C70118415CA400705ED5 /* SMHaloBot.m */,
+				77E6C6F618415AF000705ED5 /* mach_override.c */,
+				77E6C6F718415AF000705ED5 /* mach_override.h */,
+				77E6C6E518415A4A00705ED5 /* Supporting Files */,
+			);
+			path = HaloJS;
+			sourceTree = "<group>";
+		};
+		77E6C6E518415A4A00705ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C6E618415A4A00705ED5 /* HaloBot-Info.plist */,
+				77E6C6E718415A4A00705ED5 /* InfoPlist.strings */,
+				77E6C6EA18415A4A00705ED5 /* HaloHUD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E6C6DA18415A4A00705ED5 /* HaloBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E6C6ED18415A4A00705ED5 /* Build configuration list for PBXNativeTarget "HaloBot" */;
+			buildPhases = (
+				77E6C6D718415A4A00705ED5 /* Sources */,
+				77E6C6D818415A4A00705ED5 /* Frameworks */,
+				77E6C6D918415A4A00705ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaloBot;
+			productName = HaloHUD;
+			productReference = 77E6C6DB18415A4A00705ED5 /* HaloBot.mdplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E6C6D318415A4A00705ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = samuco;
+			};
+			buildConfigurationList = 77E6C6D618415A4A00705ED5 /* Build configuration list for PBXProject "HaloBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77E6C6D218415A4A00705ED5;
+			productRefGroup = 77E6C6DC18415A4A00705ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E6C6DA18415A4A00705ED5 /* HaloBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E6C6D918415A4A00705ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E6C6E918415A4A00705ED5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E6C6D718415A4A00705ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E6C6FB18415AF000705ED5 /* mach_override.c in Sources */,
+				1464EF2F190C980900002958 /* ZZTHaloMemory.c in Sources */,
+				1464EF26190C97FD00002958 /* ZZTHaloDataTypes.c in Sources */,
+				77E6C70218415CA400705ED5 /* SMHaloBot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77E6C6E718415A4A00705ED5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E6C6E818415A4A00705ED5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E6C6EB18415A4A00705ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77E6C6EC18415A4A00705ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77E6C6EE18415A4A00705ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaloJS/HaloBot-Prefix.pch";
+				INFOPLIST_FILE = "HaloJS/HaloBot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = HaloBot;
+				WRAPPER_EXTENSION = mdplugin;
+			};
+			name = Debug;
+		};
+		77E6C6EF18415A4A00705ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaloJS/HaloBot-Prefix.pch";
+				INFOPLIST_FILE = "HaloJS/HaloBot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = HaloBot;
+				WRAPPER_EXTENSION = mdplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E6C6D618415A4A00705ED5 /* Build configuration list for PBXProject "HaloBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E6C6EB18415A4A00705ED5 /* Debug */,
+				77E6C6EC18415A4A00705ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E6C6ED18415A4A00705ED5 /* Build configuration list for PBXNativeTarget "HaloBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E6C6EE18415A4A00705ED5 /* Debug */,
+				77E6C6EF18415A4A00705ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E6C6D318415A4A00705ED5 /* Project object */;
+}
