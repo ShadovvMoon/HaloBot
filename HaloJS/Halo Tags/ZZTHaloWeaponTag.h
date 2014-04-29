@@ -318,4 +318,10 @@ typedef struct {
     Reflexive triggers; //0x4FC
 } __attribute__((packed)) HaloWeaponData; //0x508 complete
 
+typedef struct {
+    uint32_t junk[0xB9];
+    Reflexive seats; //0x4FC
+} __attribute__((packed)) HaloVehicleData; //0x508 complete
+
+
 #endif

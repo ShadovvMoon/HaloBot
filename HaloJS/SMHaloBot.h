@@ -11,7 +11,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MDPlugin.h"
-
+#import "ZZTHaloMemory.h"
+#import "ZZTHaloWeaponTag.h"
+#import "ZZTHaloProjectileTag.h"
 BOOL shownMessage;
 BOOL botIsActive;
 struct point {
@@ -19,6 +21,30 @@ struct point {
     float y;
     float z;
 };
+
+int switchTimer;
+
+BOOL kA;
+BOOL kD;
+BOOL k1;
+BOOL k2;
+
+BOOL isDriver;
+BOOL isGunner;
+BOOL nearAllies;
+
+Vector ml;
+float weapon_velocity;
+int time_since_force;
+int time_since_hit;
+int force_target;
+float aimDistance;
+
+int xdelta;
+int ydelta;
+
+int selectedAddress;
+float previousDistance;
 
 struct point target;
 float distance_to_target;
@@ -37,6 +63,7 @@ BOOL isGunner;
 BOOL humanDriver;
 int BTimer;
 int NTimer;
+short seatId;
 enum target {
     player,
     vehicle,
@@ -53,6 +80,13 @@ int next_time;
 int dodge_tick;
 int is_crouching;
 int crouch_tick;
+int shoot_tick;
+
+BOOL shouldShoot;
+int lastStuckTarget;
+int last2StuckTarget;
+
+int vehicle_stuck_seeker;
 
 BOOL longRange;
 enum currentAction {

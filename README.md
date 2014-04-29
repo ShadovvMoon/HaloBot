@@ -1,4 +1,4 @@
-HaloBot
+HaloJS
 ======
 
-An extension for HaloMD that creates a basic ai.
+An extension for HaloMD that allows Javascript scripting.

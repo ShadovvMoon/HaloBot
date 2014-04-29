@@ -95,7 +95,8 @@ typedef struct {
     Vector rotation1;                           //0x74
     Vector rotation2;                           //0x80
     char unknown1[0xC];                         //0x8C
-    char unknown2[0x20];                        //0x98
+    char unknown2[0x8];                         //0x98
+    Vector better_location;                     //0xA0
     uint16_t team;                              //0xB8
     uint16_t unknown7;                          //0xBA
     char unknown3[0x8];                         //0xBC
